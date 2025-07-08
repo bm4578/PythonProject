@@ -14,6 +14,5 @@ docker ps | grep rsi_monitor
 
 echo "✅ 启动完成，使用 'docker logs -f rsi_monitor' 查看日志"
 
-# 1. chmod +x start_monitor.sh 设置权限
-# 2. ./start.sh
+
 
