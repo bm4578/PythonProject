@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  rsi-alert:
+    build: .
+    container_name: rsi-alert
+    restart: always
