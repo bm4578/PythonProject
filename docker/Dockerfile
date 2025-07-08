@@ -10,4 +10,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 设置容器启动命令
-CMD ["python", "rsi_alert.py"]
+CMD ["python", "rsi.py"]
